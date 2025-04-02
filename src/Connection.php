@@ -56,9 +56,9 @@ class Connection
 
         if (empty($response)) {
             $response = new stdClass();
-            $response->error = [];
-            $response->error[0] = new stdClass();
-            $response->error[0]->description = 'Tivemos um problema ao processar a requisição.';
+            $response->errors = [];
+            $response->errors[0] = new stdClass();
+            $response->errors[0]->description = 'Tivemos um problema ao processar a requisição.';
         }
 
         return $response;
@@ -95,9 +95,9 @@ class Connection
 
         if (empty($response)) {
             $response = new stdClass();
-            $response->error = [];
-            $response->error[0] = new stdClass();
-            $response->error[0]->description = 'Tivemos um problema ao processar a requisição.';
+            $response->errors = [];
+            $response->errors[0] = new stdClass();
+            $response->errors[0]->description = 'Tivemos um problema ao processar a requisição.';
         }
 
         return $response;
@@ -132,9 +132,9 @@ class Connection
 
         if (empty($response)) {
             $response = new stdClass();
-            $response->error = [];
-            $response->error[0] = new stdClass();
-            $response->error[0]->description = 'Tivemos um problema ao processar a requisição.';
+            $response->errors = [];
+            $response->errors[0] = new stdClass();
+            $response->errors[0]->description = 'Tivemos um problema ao processar a requisição.';
         }
 
         return $response;
@@ -167,9 +167,9 @@ class Connection
 
         if (empty($response)) {
             $response = new stdClass();
-            $response->error = [];
-            $response->error[0] = new stdClass();
-            $response->error[0]->description = 'Tivemos um problema ao processar a requisição.';
+            $response->errors = [];
+            $response->errors[0] = new stdClass();
+            $response->errors[0]->description = 'Tivemos um problema ao processar a requisição.';
         }
 
         return $response;
