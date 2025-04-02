@@ -1,16 +1,6 @@
-# Asaas @DiogoDg
+# Asaas
 
 SDK não-oficial de integração á API do serviço www.asaas.com
-
-[![Maintainer](http://img.shields.io/badge/maintainer-@diogodg-blue.svg?style=flat-square)](https://twitter.com/diogodg)
-[![Source Code](https://img.shields.io/badge/source-diogodg/asaas--sdk-blue.svg?style=flat-square)](https://github.com/diogodg/asaas-sdk)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/diogodg/asaas-sdk.svg?style=flat-square)](https://packagist.org/packages/diogodg/asaas-sdk)
-[![Latest Version](https://img.shields.io/github/release/diogodg/asaas-sdk.svg?style=flat-square)](https://github.com/diogodg/asaas-sdk/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/diogodg/asaas-sdk.svg?style=flat-square)](https://scrutinizer-ci.com/g/diogodg/asaas-sdk)
-[![Quality Score](https://img.shields.io/scrutinizer/g/diogodg/asaas-sdk.svg?style=flat-square)](https://scrutinizer-ci.com/g/diogodg/asaas-sdk)
-[![Total Downloads](https://img.shields.io/packagist/dt/diogodg/asaas-sdk.svg?style=flat-square)](https://packagist.org/packages/diogodg/asaas-sdk)
-
 
 ### Projeto em andamento
 
