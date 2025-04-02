@@ -1,0 +1,21 @@
+{
+  "name": "diogodg/asaas-sdk",
+  "type"       : "library",
+  "description": "Asaas.com PHP API Wrapper",
+  "keywords"   : ["Asaas", "API", "Payment SaaS", "Credit Card", "Boleto"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Diogo Graciano Comin",
+      "email": "diogo.dg691@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "DiogoDg\\Asaas\\": "src"
+    }
+  }
+}
