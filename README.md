@@ -827,7 +827,7 @@ Please see [CONTRIBUTING](https://github.com/diogodg/asaas-sdk/blob/master/CONTR
 Creditos
 --------
 
-* [Codephix - www.diogodg.com](http://www.diogodg.com)
+* [DiogoDg - www.diogodg.com](http://www.diogodg.com)
 
 Suporte
 -------

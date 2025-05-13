@@ -64,11 +64,6 @@ class Connection
         return $response;
     }
 
-    private function requestApi($metodo = 'POST', $url = '', ?array $params = [], $json = true, $raw = 1)
-    {
-
-    }
-
     public function post($url, $params)
     {
         $params = json_encode($params);
@@ -116,9 +111,9 @@ class Connection
         CURLOPT_TIMEOUT => 0,
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_USERAGENT => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown',
         CURLOPT_CUSTOMREQUEST => 'PUT',
         CURLOPT_POSTFIELDS => $params,
-        CURLOPT_USERAGENT => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown',
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',
             'Accept: application/json',
@@ -153,8 +148,8 @@ class Connection
           CURLOPT_TIMEOUT => 0,
           CURLOPT_FOLLOWLOCATION => true,
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-          CURLOPT_CUSTOMREQUEST => 'DELETE',
           CURLOPT_USERAGENT => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown',
+          CURLOPT_CUSTOMREQUEST => 'DELETE',
           CURLOPT_HTTPHEADER => array(
             'Accept: application/json',
             'access_token: '. $this->api_key
